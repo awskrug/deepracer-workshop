@@ -1,0 +1,27 @@
+{
+  "name": "deepracer-workshop",
+  "version": "1.0.0",
+  "homepage": "https://github.com/awskrug/deepracer-workshop",
+  "bugs": {
+    "url": "https://github.com/awskrug/deepracer-workshop/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/awskrug/deepracer-workshop.git"
+  },
+  "scripts": {
+    "theme": "git submodule init && git submodule update",
+    "build": "rm -rf docs && hugo -v -b /deepracer-workshop/ -d docs --minify",
+    "start": "hugo server -w -v --enableGitInfo --bind=0.0.0.0 --port 8080 --navigateToChanged",
+    "deploy": "gh-pages -d dist"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.11.2",
+    "hugo-cli": "^0.11.0",
+    "hugo-lunr": "0.0.4",
+    "mermaid": "^8.4.2"
+  },
+  "devDependencies": {
+    "gh-pages": "^3.2.3"
+  }
+}
