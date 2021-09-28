@@ -5,7 +5,7 @@ disableToc: true
 
 ## Contributors
 
-{{% ghcontributors "https://api.github.com/repos/awskrug/kubernetes-workshop/contributors?per_page=100" %}}
+{{% ghcontributors "https://api.github.com/repos/awskrug/deepracer-workshop/contributors?per_page=100" %}}
 
 ## Tools
 
