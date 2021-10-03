@@ -1,13 +1,10 @@
 ---
-title: "Home"
+title: Introduction
+weight: 2
 ---
-
-# DeepRacer Workshop
 
 {{% notice tip %}}
 
 {{% /notice %}}
-
-## Topics
 
 {{% children %}}

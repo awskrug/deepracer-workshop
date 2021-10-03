@@ -1,13 +1,10 @@
 ---
-title: "Home"
+title: What is reinforcement learning
+weight: 3
 ---
-
-# DeepRacer Workshop
 
 {{% notice tip %}}
 
 {{% /notice %}}
-
-## Topics
 
 {{% children %}}
