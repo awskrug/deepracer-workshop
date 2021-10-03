@@ -1,7 +1,7 @@
 title = "DeepRacer Workshop"
 theme = "learn"
 
-baseURL = "/"
+baseURL = "/deepracer-workshop"
 
 languageCode = "ko-KR"
 defaultContentLanguage = "ko"
