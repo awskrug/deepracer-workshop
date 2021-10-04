@@ -1,9 +1,10 @@
 ---
-title: AWS DeepRacer에 대한 보상 함수 매개 변수
+title: 보상 함수의 매개 변수
 weight: 204
 ---
 
-### AWS DeepRacer에 대한 보상 함수 매개 변수
+### AWS DeepRacer에 대한 보상 함수의 매개 변수
+
 AWS DeepRacer에서 보상 함수는 현재 상태를 설명하고 숫자 보상 값을 반환하는 특정 매개 변수가 제공되는 Python 함수입니다.
 
 > 보상함수는 파이썬으로 작성 합니다.
