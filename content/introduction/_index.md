@@ -1,5 +1,5 @@
 ---
-title: Introduction
+title: 딥레이서 소개
 weight: 2
 ---
 
