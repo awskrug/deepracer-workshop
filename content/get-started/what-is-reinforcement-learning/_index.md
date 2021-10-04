@@ -9,9 +9,7 @@ weight: 201
 
 > 강화 학습은 말 그대로 학습을 강화해 나가는 것입니다. 리워드와 패널티로 리워드를 많이 받을수 있도록 반복 학습을 합니다.
 
-![what-is-reinforcement-learning](../images/001-001.png)
-
-<img src=./images/001-001.png>
+![what-is-reinforcement-learning](./images/001-001.png)
 
 ### 다른 유형의 기계 학습도 있습니다.
 
