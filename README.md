@@ -1,6 +1,6 @@
 # deepracer-workshop
 
-* <https://nalbam.github.io/deepracer-workshop/>
+* <https://awskrug.github.io/deepracer-workshop/>
 
 ## prepare
 

@@ -9,7 +9,7 @@ defaultContentLanguage: "ko"
 metaDataFormat: "yaml"
 
 params:
-  editURL: "https://github.com/nalbam/deepracer-workshop/edit/master/content/"
+  editURL: "https://github.com/awskrug/deepracer-workshop/edit/master/content/"
   description: "DeepRacer Workshop"
   author: "Jungyoul Yu"
   logo: "/images/logo.png"
