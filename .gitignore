@@ -30,5 +30,5 @@ public/
 .idea/
 *.iml
 
-# hugo build
-docs/
+# Hugo
+.hugo_build.lock

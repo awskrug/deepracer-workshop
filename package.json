@@ -1,13 +1,13 @@
 {
   "name": "deepracer-workshop",
   "version": "1.0.0",
-  "homepage": "https://github.com/awskrug/deepracer-workshop",
+  "homepage": "https://github.com/nalbam/deepracer-workshop",
   "bugs": {
-    "url": "https://github.com/awskrug/deepracer-workshop/issues"
+    "url": "https://github.com/nalbam/deepracer-workshop/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/awskrug/deepracer-workshop.git"
+    "url": "git+https://github.com/nalbam/deepracer-workshop.git"
   },
   "scripts": {
     "theme": "git submodule init && git submodule update",
@@ -16,12 +16,11 @@
     "deploy": "gh-pages -d dist"
   },
   "dependencies": {
-    "@fortawesome/fontawesome-free": "^5.11.2",
-    "hugo-cli": "^0.11.0",
-    "hugo-lunr": "0.0.4",
-    "mermaid": "^8.4.2"
+    "@fortawesome/fontawesome-free": "^6.4.2",
+    "hugo-bin": "^0.115.0",
+    "mermaid": "^10.4.0"
   },
   "devDependencies": {
-    "gh-pages": "^3.2.3"
+    "gh-pages": "^6.0.0"
   }
 }
