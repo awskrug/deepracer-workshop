@@ -1,0 +1,21 @@
+title: "DeepRacer Workshop"
+theme: "relearn"
+
+baseURL: "/"
+
+languageCode: "ko-KR"
+defaultContentLanguage: "ko"
+
+metaDataFormat: "yaml"
+
+params:
+  editURL: "https://github.com/nalbam/deepracer-workshop/edit/master/content/"
+  description: "DeepRacer Workshop"
+  author: "Jungyoul Yu"
+  # showVisitedLinks: false
+  # disableBreadcrumb: false
+  # disableNextPrev: false
+  themeVariant: "blue"
+
+outputs:
+  home: ["HTML", "RSS", "SEARCH"]

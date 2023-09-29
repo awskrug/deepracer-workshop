@@ -5,9 +5,9 @@ disableToc: true
 
 ## Contributors
 
-{{% ghcontributors "https://api.github.com/repos/awskrug/deepracer-workshop/contributors?per_page=100" %}}
+{{% ghcontributors "https://api.github.com/repos/nalbam/deepracer-workshop/contributors?per_page=100" %}}
 
 ## Tools
 
 * [Hugo](https://gohugo.io/)
-* [Hugo Themes Learn](https://themes.gohugo.io/hugo-theme-learn/)
+* [Hugo Relearn Theme](https://themes.gohugo.io/themes/hugo-theme-relearn/)
