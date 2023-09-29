@@ -12,9 +12,7 @@ params:
   editURL: "https://github.com/nalbam/deepracer-workshop/edit/master/content/"
   description: "DeepRacer Workshop"
   author: "Jungyoul Yu"
-  # showVisitedLinks: false
-  # disableBreadcrumb: false
-  # disableNextPrev: false
+  logo: "/images/logo.png"
   themeVariant: "blue"
 
 outputs:
