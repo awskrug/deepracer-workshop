@@ -1,18 +1,18 @@
 {
   "name": "deepracer-workshop",
   "version": "1.0.0",
-  "homepage": "https://github.com/nalbam/deepracer-workshop",
+  "homepage": "https://github.com/awskrug/deepracer-workshop",
   "bugs": {
-    "url": "https://github.com/nalbam/deepracer-workshop/issues"
+    "url": "https://github.com/awskrug/deepracer-workshop/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/nalbam/deepracer-workshop.git"
+    "url": "git+https://github.com/awskrug/deepracer-workshop.git"
   },
   "scripts": {
     "theme": "git submodule init && git submodule update",
     "build": "rm -rf docs && hugo -v -b /deepracer-workshop/ -d docs --minify",
-    "start": "hugo server -w -v --enableGitInfo --bind=0.0.0.0 --port 8080 --navigateToChanged",
+    "start": "hugo server --bind=0.0.0.0 --port 8080",
     "deploy": "gh-pages -d dist"
   },
   "dependencies": {
