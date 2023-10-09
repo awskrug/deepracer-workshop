@@ -1,7 +1,7 @@
 ---
 archetype: "chapter"
-title: "RaceLine_Calculation"
-weight: 5
+title: "최적 코스 추출"
+weight: 6
 ---
 
 Lorem Ipsum.

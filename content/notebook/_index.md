@@ -1,7 +1,7 @@
 ---
 archetype: "chapter"
-title: "Sagemaker Notebook"
-weight: 4
+title: "Jupyter Notebook 설정"
+weight: 5
 ---
 
 Lorem Ipsum.

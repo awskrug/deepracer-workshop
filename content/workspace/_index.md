@@ -1,7 +1,7 @@
 ---
 archetype: "chapter"
-title: "최적 속도 추출"
-weight: 7
+title: "실습 환경 구성"
+weight: 2
 ---
 
 Lorem Ipsum.
