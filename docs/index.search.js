@@ -89,10 +89,29 @@ Next 를 클릭합니다.
 Hyperparameters 의 Discount factor 에 0.95 를 입력합니다.
 Next 를 클릭합니다.
 Select action space 에서 Discrete action space 을 선택합니다.
-Define discrete action space 에서 Steering angle granularity = 7, Speed granularity = 3 으로 설정합니다.
+Define discrete action space 에서 다음을 설정 합니다.
+Steering angle granularity = 7
+Speed granularity = 3
 Action list 에서 Advanced configuration 을 선택합니다.
 Add an action 을 클릭하여 9개의 액션을 추가합니다. 총 30개의 액션이 되어야 합니다.
-`,description:"",tags:null,title:"최적화 보상 함수",uri:"/deepracer-workshop/reward_function/index.html"},{breadcrumb:"Home",content:`Lorem Ipsum.
+이제 Steering angle 과 Speed 에 다음과 같은 값을 입력합니다.
+[ { "steering_angle": -30.0, "speed": 1.1, "index": 0 }, { "steering_angle": -24.0, "speed": 1.1, "index": 1 }, { "steering_angle": -24.0, "speed": 1.8, "index": 2 }, { "steering_angle": -24.0, "speed": 2.5, "index": 3 }, { "steering_angle": -16.0, "speed": 1.1, "index": 4 }, { "steering_angle": -16.0, "speed": 1.8, "index": 5 }, { "steering_angle": -16.0, "speed": 2.5, "index": 6 }, { "steering_angle": -16.0, "speed": 3.2, "index": 7 }, { "steering_angle": -8.0, "speed": 1.1, "index": 8 }, { "steering_angle": -8.0, "speed": 1.8, "index": 9 }, { "steering_angle": -8.0, "speed": 2.5, "index": 10 }, { "steering_angle": -8.0, "speed": 3.2, "index": 11 }, { "steering_angle": -8.0, "speed": 3.9, "index": 12 }, { "steering_angle": 0.0, "speed": 3.9, "index": 13 }, { "steering_angle": 0.0, "speed": 3.2, "index": 14 }, { "steering_angle": 0.0, "speed": 2.5, "index": 15 }, { "steering_angle": 0.0, "speed": 1.8, "index": 16 }, { "steering_angle": 8.0, "speed": 3.9, "index": 17 }, { "steering_angle": 8.0, "speed": 3.2, "index": 18 }, { "steering_angle": 8.0, "speed": 2.5, "index": 19 }, { "steering_angle": 8.0, "speed": 1.8, "index": 20 }, { "steering_angle": 8.0, "speed": 1.1, "index": 21 }, { "steering_angle": 16.0, "speed": 3.2, "index": 22 }, { "steering_angle": 16.0, "speed": 2.5, "index": 23 }, { "steering_angle": 16.0, "speed": 1.8, "index": 24 }, { "steering_angle": 16.0, "speed": 1.1, "index": 25 }, { "steering_angle": 24.0, "speed": 2.5, "index": 26 }, { "steering_angle": 24.0, "speed": 1.8, "index": 27 }, { "steering_angle": 24.0, "speed": 1.1, "index": 28 }, { "steering_angle": 30.0, "speed": 1.1, "index": 29 } ]Next 를 클릭합니다.
+차량은 The Original DeepRacer 를 선택합니다.
+Next 를 클릭합니다.
+Reward function 에 처음의 코드를 입력합니다.
+함수가 잘 작성되었는지 확인하기 위해 Validate 를 클릭합니다.
+Stop conditions 의 Maximum time 에 200 을 입력합니다.
+다음 설정들은 모두 체크를 해제 합니다.
+Create model 을 클릭합니다.
+초기화가 완료 되면 훈련을 시작 할 것 입니다.
+Trainning 200분 훈련을 완료하였습니다. 아마도 다음과 같은 그래프가 나올 것 입니다.
+`,description:"",tags:null,title:"최적화 보상 함수",uri:"/deepracer-workshop/reward_function/index.html"},{breadcrumb:"Home",content:`Download logs 분석 하고자 하는 모델 에서 Download logs 를 클릭하여 주행 로그를 다운로드 합니다.
+Analysis ActionSpace 주피터 노트북에서 Analysis_ActionSpace.ipynb 노트북을 클릭합니다.
+Kernel은 coda_python3 를 선택하고, 노트북을 Trust 합니다.
+주 이번 분석은 ch-ccw-06 을 기준으로 설명 합니다.
+Run all cells 아래 셀에서 track_name = reInvent2019_track_ccw 를 확인 합니다.
+fname = logs/training-20230824060557-uBkNAvaRR5iFOWCl5nk8cA-robomaker.log 를 확인 합니다.
+⏩ 버튼을 클릭하면 전체 셀이 실행됩니다.
 `,description:"",tags:null,title:"주행 로그 분석",uri:"/deepracer-workshop/analysis/index.html"},{breadcrumb:"Home",content:`Lorem Ipsum.
 `,description:"",tags:null,title:"보상 함수 튜닝",uri:"/deepracer-workshop/tuning/index.html"},{breadcrumb:"Home",content:"",description:"",tags:null,title:"카테고리",uri:"/deepracer-workshop/categories/index.html"},{breadcrumb:"Home",content:"Contributors Tools Hugo Hugo Relearn Theme ",description:"",tags:null,title:"Credits",uri:"/deepracer-workshop/credits/index.html"},{breadcrumb:"",content:`DeepRacer Workshop 도움말 본 실습에서는 딥레이서 기초부터 최적화 보상 함수, 최적 코스 추출, 최적 속도 추출, 주행 로그 분석 등을 실습합니다.
 Topics 딥레이서 기초 실습 환경 구성 30분 훈련 완성 온라인 리그 제출 주피터 노드북 설정 최적 코스 추출 최적 속도 추출 최적화 보상 함수 주행 로그 분석 보상 함수 튜닝 Credits `,description:"",tags:null,title:"Home",uri:"/deepracer-workshop/index.html"},{breadcrumb:"Home",content:"",description:"",tags:null,title:"태그",uri:"/deepracer-workshop/tags/index.html"}]
