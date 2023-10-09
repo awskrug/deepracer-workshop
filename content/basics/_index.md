@@ -1,6 +1,6 @@
 ---
 archetype: "chapter"
-title: "Basics"
+title: "딥레이서 기초"
 weight: 1
 ---
 

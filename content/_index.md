@@ -5,20 +5,8 @@ title: "Home"
 
 # DeepRacer Workshop
 
-{{% notice note %}}
-A notice disclaimer
-{{% /notice %}}
-
-{{% notice info %}}
-An information disclaimer
-{{% /notice %}}
-
 {{% notice tip %}}
-A tip disclaimer
-{{% /notice %}}
-
-{{% notice warning %}}
-A warning disclaimer
+본 실습에서는 딥레이서 기초부터 최적화 보상 함수, 최적 코스 추출, 최적 속도 추출, 주행 로그 분석 등을 실습합니다.
 {{% /notice %}}
 
 ## Topics
