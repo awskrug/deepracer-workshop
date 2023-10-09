@@ -16,10 +16,6 @@ weight: 9
 
 Kernel은 `coda_python3` 를 선택하고, 노트북을 `Trust` 합니다.
 
-{{% notice note %}}
-이번 분석은 `ch-ccw-06` 을 기준으로 설명 합니다.
-{{% /notice %}}
-
 ## Run all cells
 
 아래 셀에서 `track_name` = `reInvent2019_track_ccw` 를 확인 합니다.
