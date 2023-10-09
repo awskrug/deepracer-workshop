@@ -33,11 +33,14 @@ Evaluation Name 을 입력합니다. 저는 ccw-01 으로 입력했습니다.
 Evaluate criteria 에서 트랙은 Smile Speedway 를 선택합니다.
 Track direction 은 Counterclockwise 를 선택합니다.
 Start evaluation 을 클릭합니다.
+평가가 진행되는 동안 Simulation video stream 와 Evaluation results 을 확인 할 수 있습니다.
+평가가 완료 되었습니다. Simulation video stream 에서 주행 영상을 확인 할 수 있습니다.
 `,description:"",tags:null,title:"30분 훈련 완성",uri:"/deepracer-workshop/30-min/index.html"},{breadcrumb:"Home",content:`Online league AWS Console 의 Deepracer 서비스로 이동합니다. Community races 메뉴에서 Create race 를 클릭하여 새 레이스를 만들수 있지만. 우리는 이미 만들어진 레이스로 이동 합니다.
 다음 링크 를 클릭하여 레이스로 이동합니다.
 Submit model Enter race 버튼을 클릭합니다.
 Choose model 에서 ch-ccw-00 을 선택합니다.
 Enter race 버튼을 클릭합니다.
+평가가 끝나면 결과가 표시됩니다.
 `,description:"",tags:null,title:"온라인 리그 제출",uri:"/deepracer-workshop/submit/index.html"},{breadcrumb:"Home",content:`SageMaker AWS Console에서 SageMaker 서비스로 이동합니다.
 리전은 ap-northeast-2를 선택합니다.
 Notebook instance 좌측 메뉴에서 노트북 인스턴스를 선택합니다.

@@ -4,7 +4,8 @@ AWS Deepracer — How to train a model in 15 minutes 작성자는 차량의 조�
 다음 링크 를 클릭하여 레이스로 이동합니다.
 Submit model Enter race 버튼을 클릭합니다.
 Choose model 에서 ch-ccw-00 을 선택합니다.
-Enter race 버튼을 클릭합니다.</description></item><item><title>주피터 노드북 설정</title><link>/deepracer-workshop/notebook/index.html</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/deepracer-workshop/notebook/index.html</guid><description>SageMaker AWS Console에서 SageMaker 서비스로 이동합니다.
+Enter race 버튼을 클릭합니다.
+평가가 끝나면 결과가 표시됩니다.</description></item><item><title>주피터 노드북 설정</title><link>/deepracer-workshop/notebook/index.html</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/deepracer-workshop/notebook/index.html</guid><description>SageMaker AWS Console에서 SageMaker 서비스로 이동합니다.
 리전은 ap-northeast-2를 선택합니다.
 Notebook instance 좌측 메뉴에서 노트북 인스턴스를 선택합니다.
 도움말 바로가기: 링크

@@ -21,3 +21,7 @@ AWS Console 의 `Deepracer` 서비스로 이동합니다. `Community races` 메�
 ![](./images/submit-02.png)
 
 `Enter race` 버튼을 클릭합니다.
+
+평가가 끝나면 결과가 표시됩니다.
+
+![](./images/submit-03.png)

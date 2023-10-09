@@ -290,3 +290,11 @@ def reward_function(params):
 ![](./images/30-min-19.png)
 
 `Start evaluation` 을 클릭합니다.
+
+평가가 진행되는 동안 `Simulation video stream` 와 `Evaluation results` 을 확인 할 수 있습니다.
+
+![](./images/30-min-20.png)
+
+평가가 완료 되었습니다. `Simulation video stream` 에서 주행 영상을 확인 할 수 있습니다.
+
+![](./images/30-min-21.png)
