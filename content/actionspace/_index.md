@@ -26,6 +26,8 @@ Kernel은 `coda_python3` 를 선택하고, 노트북을 `Trust` 합니다.
 
 ![](./images/actionspace-02.png)
 
-추출한 데이터는 `deepracer-workshop/outputs/` 폴더에 저장됩니다.
+추출한 데이터는 `deepracer-group/notebook/outputs/` 폴더에 저장됩니다.
 
 ![](./images/actionspace-03.png)
+
+![](./images/actionspace-04.png)
