@@ -1,7 +1,34 @@
 var relearn_search_index=[{breadcrumb:"Home",content:`Discover what this Hugo theme is all about and the core-concepts behind it.
 `,description:"",tags:null,title:"딥레이서 기초",uri:"/deepracer-workshop/basics/index.html"},{breadcrumb:"Home",content:`Lorem Ipsum.
 `,description:"",tags:null,title:"실습 환경 구성",uri:"/deepracer-workshop/workspace/index.html"},{breadcrumb:"Home",content:` 도움말 이 장에서는 30분 훈련 완성을 위한 방법을 설명합니다. 자료는 이 링크를 참고하였습니다.
-`,description:"",tags:null,title:"30분 훈련 완성",uri:"/deepracer-workshop/30-min/index.html"},{breadcrumb:"Home",content:`Lorem Ipsum.
+위의 문서를 참고하여 30분 훈련 완성을 위한 방법을 설명합니다.
+작성자는 차량의 조향 방향을 사용하여 스코어링 함수를 설계했습니다.
+차량 주위에 고정된 반경의 원을 그린다. 이 원과 중앙선의 교점을 찾는다. 그 점을 향해 조향하면 최대 점수를 얻고, 조향이 다를수록 점수가 감소한다. AWS Console 의 Deepracer 서비스로 이동합니다. Your models 메뉴에서 Create model 을 클릭합니다.
+Model name 을 입력 합니다. 저는 ch-ccw-00 으로 입력했습니다.
+Track 은 Smile Speedway 를 선택합니다.
+Track direction 은 Counterclockwise 를 선택합니다.
+Next 를 클릭합니다.
+Hyperparameters 의 Discount factor 에 0.9 를 입력합니다.
+Next 를 클릭합니다.
+Select action space 에서 Discrete action space 을 선택합니다.
+Steering angle granularity 에 7 을 선택합니다.
+Speed granularity 에 1 을 선택합니다.
+Maximum speed 에 1.4 를 입력합니다.
+Action list 는 총 7개의 액션이 되어야 합니다.
+Next 를 클릭합니다.
+차량은 The Original DeepRacer 를 선택합니다.
+Next 를 클릭합니다.
+Reward function 에 다음의 코드를 입력합니다.
+import math SIGHT = 0.9 MAX_REWARD = 3.0 MIN_REWARD = 0.0001 def dist(point1, point2): return ((point1[0] - point2[0]) ** 2 + (point1[1] - point2[1]) ** 2) ** 0.5 # thanks to https://stackoverflow.com/questions/20924085/python-conversion-between-coordinates def rect(r, theta): """ theta in degrees returns tuple; (float, float); (x,y) """ x = r * math.cos(math.radians(theta)) y = r * math.sin(math.radians(theta)) return x, y # thanks to https://stackoverflow.com/questions/20924085/python-conversion-between-coordinates def polar(x, y): """ returns r, theta(degrees) """ r = (x ** 2 + y ** 2) ** 0.5 theta = math.degrees(math.atan2(y, x)) return r, theta def angle_mod_360(angle): """ Maps an angle to the interval -180, +180. Examples: angle_mod_360(362) == 2 angle_mod_360(270) == -90 :param angle: angle in degree :return: angle in degree. Between -180 and +180 """ n = math.floor(angle / 360.0) angle_between_0_and_360 = angle - n * 360.0 if angle_between_0_and_360 <= 180.0: return angle_between_0_and_360 else: return angle_between_0_and_360 - 360 def get_waypoints_ordered_in_driving_direction(params): # return get_center_waypoints() # waypoints are always provided in counter clock wise order if params["is_reversed"]: # driving clock wise. return list(reversed(params["waypoints"])) else: # driving counter clock wise. return params["waypoints"] def up_sample(waypoints, factor=10): """ Adds extra waypoints in between provided waypoints :param waypoints: :param factor: integer. E.g. 3 means that the resulting list has 3 times as many points. :return: """ p = waypoints n = len(p) return [ [ i / factor * p[int((j + 1) % n)][0] + (1 - i / factor) * p[j][0], i / factor * p[int((j + 1) % n)][1] + (1 - i / factor) * p[j][1], ] for j in range(n) for i in range(factor) ] def get_target_point(params): waypoints = up_sample(get_waypoints_ordered_in_driving_direction(params), 20) car = [params["x"], params["y"]] distances = [dist(p, car) for p in waypoints] min_dist = min(distances) i_closest = distances.index(min_dist) n = len(waypoints) waypoints_starting_with_closest = [waypoints[(i + i_closest) % n] for i in range(n)] r = params["track_width"] * SIGHT is_inside = [dist(p, car) < r for p in waypoints_starting_with_closest] i_first_outside = is_inside.index(False) if i_first_outside < 0: # this can only happen if we choose r as big as the entire track return waypoints[i_closest] return waypoints_starting_with_closest[i_first_outside] def get_target_steering_degree(params): tx, ty = get_target_point(params) car_x = params["x"] car_y = params["y"] dx = tx - car_x dy = ty - car_y heading = params["heading"] _, target_angle = polar(dx, dy) steering_angle = target_angle - heading return angle_mod_360(steering_angle) def score_speed(params): speed = params["speed"] max_speed = 2.5 score = speed / max_speed return max(min(score, MAX_REWARD), MIN_REWARD) def score_steer_to_point_ahead(params): best_stearing_angle = get_target_steering_degree(params) steering_angle = params["steering_angle"] speed = params["speed"] error = ( steering_angle - best_stearing_angle ) / 60.0 # 60 degree is already really bad score = 1.0 - abs(error) return max(min(score, MAX_REWARD), MIN_REWARD) def reward_function(params): reward = 0.0 reward += score_steer_to_point_ahead(params) # reward += score_speed(params) return float(reward)함수가 잘 작성되었는지 확인하기 위해 Validate 를 클릭합니다.
+Stop conditions 의 Maximum time 에 30 을 입력합니다.
+다음 설정들은 모두 체크를 해제 합니다.
+Create model 을 클릭합니다.
+초기화가 완료 되면 훈련을 시작 할 것 입니다.
+`,description:"",tags:null,title:"30분 훈련 완성",uri:"/deepracer-workshop/30-min/index.html"},{breadcrumb:"Home",content:`AWS Console 의 Deepracer 서비스로 이동합니다. Community races 메뉴에서 Create race 를 클릭하여 새 레이스를 만들수 있지만. 우리는 이미 만들어진 레이스로 이동 합니다.
+다음 링크 를 클릭하여 레이스로 이동합니다.
+Enter race 버튼을 클릭합니다.
+Choose model 에서 ch-ccw-00 을 선택합니다.
+Enter race 버튼을 클릭합니다.
 `,description:"",tags:null,title:"온라인 리그 제출",uri:"/deepracer-workshop/submit/index.html"},{breadcrumb:"Home",content:`AWS Console에서 SageMaker 서비스로 이동합니다.
 리전은 ap-northeast-2를 선택합니다.
 좌측 메뉴에서 노트북 인스턴스를 선택합니다.
@@ -54,5 +81,6 @@ Define discrete action space 에서 Steering angle granularity = 7, Speed granul
 Action list 에서 Advanced configuration 을 선택합니다.
 Add an action 을 클릭하여 9개의 액션을 추가합니다. 총 30개의 액션이 되어야 합니다.
 `,description:"",tags:null,title:"최적화 보상 함수",uri:"/deepracer-workshop/reward_function/index.html"},{breadcrumb:"Home",content:`Lorem Ipsum.
-`,description:"",tags:null,title:"주행 로그 분석",uri:"/deepracer-workshop/analysis/index.html"},{breadcrumb:"Home",content:"",description:"",tags:null,title:"카테고리",uri:"/deepracer-workshop/categories/index.html"},{breadcrumb:"Home",content:"Contributors Tools Hugo Hugo Relearn Theme ",description:"",tags:null,title:"Credits",uri:"/deepracer-workshop/credits/index.html"},{breadcrumb:"",content:`DeepRacer Workshop 도움말 본 실습에서는 딥레이서 기초부터 최적화 보상 함수, 최적 코스 추출, 최적 속도 추출, 주행 로그 분석 등을 실습합니다.
-Topics 딥레이서 기초 실습 환경 구성 30분 훈련 완성 온라인 리그 제출 주피터 노드북 설정 최적 코스 추출 최적 속도 추출 최적화 보상 함수 주행 로그 분석 Credits `,description:"",tags:null,title:"Home",uri:"/deepracer-workshop/index.html"},{breadcrumb:"Home",content:"",description:"",tags:null,title:"태그",uri:"/deepracer-workshop/tags/index.html"}]
+`,description:"",tags:null,title:"주행 로그 분석",uri:"/deepracer-workshop/analysis/index.html"},{breadcrumb:"Home",content:`Lorem Ipsum.
+`,description:"",tags:null,title:"보상 함수 튜닝",uri:"/deepracer-workshop/tuning/index.html"},{breadcrumb:"Home",content:"",description:"",tags:null,title:"카테고리",uri:"/deepracer-workshop/categories/index.html"},{breadcrumb:"Home",content:"Contributors Tools Hugo Hugo Relearn Theme ",description:"",tags:null,title:"Credits",uri:"/deepracer-workshop/credits/index.html"},{breadcrumb:"",content:`DeepRacer Workshop 도움말 본 실습에서는 딥레이서 기초부터 최적화 보상 함수, 최적 코스 추출, 최적 속도 추출, 주행 로그 분석 등을 실습합니다.
+Topics 딥레이서 기초 실습 환경 구성 30분 훈련 완성 온라인 리그 제출 주피터 노드북 설정 최적 코스 추출 최적 속도 추출 최적화 보상 함수 주행 로그 분석 보상 함수 튜닝 Credits `,description:"",tags:null,title:"Home",uri:"/deepracer-workshop/index.html"},{breadcrumb:"Home",content:"",description:"",tags:null,title:"태그",uri:"/deepracer-workshop/tags/index.html"}]
