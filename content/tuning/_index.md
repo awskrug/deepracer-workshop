@@ -4,4 +4,52 @@ title: "보상 함수 튜닝"
 weight: 10
 ---
 
-Lorem Ipsum.
+{{% notice tip %}}
+이 장에서는 Best lap time 이 `07.611` 인 모델을 기준으로 설명합니다.
+{{% /notice %}}
+
+## ch-ccw-06
+
+주피터 노트북에서 `RaceLine_ActionSpace.ipynb` 노트북을 클릭합니다.
+
+`MIN_SPEED` = `1.1`, `MAX_SPEED` = `3.6` 을 입력합니다.
+
+결과를 `racing_track` 변수에 저장합니다.
+
+AWS Console 의 `Deepracer` 서비스로 이동합니다. `Your models` 메뉴에서 `Create model` 을 클릭합니다.
+
+이전과 같은 방법으로 모델을 훈련 합니다.
+
+## ch-ccw-06-ccw
+
+주피터 노트북에서 `RaceLine_ActionSpace.ipynb` 노트북을 클릭합니다.
+
+`MIN_SPEED` = `1.3`, `MAX_SPEED` = `3.9` 를 입력합니다.
+
+결과를 `racing_track` 변수에 저장합니다.
+
+`Your models` 에서 `ch-ccw-06` 모델을 선택합니다.
+
+`Clone` 을 클릭합니다.
+
+`Hyperparameter` 의 `Learning rate`	= `0.0002` 으로 변경합니다.
+
+모델을 훈련 합니다.
+
+## ch-ccw-06-ccw-ccw2
+
+주피터 노트북에서 `RaceLine_ActionSpace.ipynb` 노트북을 클릭합니다.
+
+`MIN_SPEED` = `1.6`, `MAX_SPEED` = `4.0` 을 입력합니다.
+
+결과를 `racing_track` 변수에 저장합니다.
+
+`Your models` 에서 `ch-ccw-06-ccw` 모델을 선택합니다.
+
+`Clone` 을 클릭합니다.
+
+`Hyperparameter` 의 `Learning rate`	= `0.0001` 으로 변경합니다.
+
+모델을 훈련 합니다.
+
+## ch-ccw-06-ccw-ccw2-ccw
