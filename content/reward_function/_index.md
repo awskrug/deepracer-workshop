@@ -8,6 +8,8 @@ weight: 8
 이 보상함수는 [링크](https://github.com/dgnzlz/Capstone_AWS_DeepRacer) 를 참고 하였습니다.
 {{% /notice %}}
 
+## Capstone_AWS_DeepRacer
+
 주피터 노트북에서 `deepracer-group/functions/ct.py` 파일을 클릭합니다.
 
 ![](./images/reward_function-00.png)
@@ -19,6 +21,8 @@ weight: 8
 `FASTEST_TIME` 은 최고 기록을 세운 시간입니다.
 
 이제 이 함수로 훈련을 시작해 보겠습니다.
+
+## Create model
 
 AWS Console 의 `Deepracer` 서비스로 이동합니다. `Your models` 메뉴에서 `Create model` 을 클릭합니다.
 

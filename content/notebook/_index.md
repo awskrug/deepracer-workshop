@@ -4,9 +4,13 @@ title: "주피터 노드북 설정"
 weight: 5
 ---
 
+## SageMaker
+
 AWS Console에서 SageMaker 서비스로 이동합니다.
 
 리전은 `ap-northeast-2`를 선택합니다.
+
+## Notebook instance
 
 좌측 메뉴에서 `노트북 인스턴스`를 선택합니다.
 
@@ -37,6 +41,8 @@ AWS Console에서 SageMaker 서비스로 이동합니다.
 {{% notice tip %}}
 노트북 인스턴스 생성에는 5분 정도 소요됩니다.
 {{% /notice %}}
+
+## Open Jupyter
 
 만들어진 노트북 인스턴스에서 `Open Jupyter` 링크를 클릭합니다.
 

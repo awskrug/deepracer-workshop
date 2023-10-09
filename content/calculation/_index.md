@@ -4,6 +4,8 @@ title: "최적 코스 추출"
 weight: 6
 ---
 
+## RaceLine Calculation
+
 주피터 노트북에서 `RaceLine_Calculation.ipynb` 노트북을 클릭합니다.
 
 처음에는 Kernel이 설정되어있지 않은데 `coda_python3` 를 선택하고 `Set Kernel` 버튼을 클릭합니다.
@@ -19,6 +21,8 @@ weight: 6
 ![](./images/calc-03.png)
 
 해당 셀의 왼쪽에 `In [*]` 가 `In [1]` 로 바뀌면 실행이 완료된 것입니다. 다시 주석 처리합니다.
+
+## Run all cells
 
 ![](./images/calc-04.png)
 
