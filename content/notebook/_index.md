@@ -32,7 +32,7 @@ AWS Console에서 SageMaker 서비스로 이동합니다.
 
 `Git repositories- optional` 섹션을 열고 `Clone a public Git repository...` 를 선택합니다.
 
-`Git repository URL` 에 `https://github.com/awskrug/deepracer-group` 을 입력합니다.
+`Git repository URL` 에 `https://github.com/awskrug/deepracer-notebook` 을 입력합니다.
 
 ![](./images/notebook-03.png)
 
@@ -48,6 +48,6 @@ AWS Console에서 SageMaker 서비스로 이동합니다.
 
 ![](./images/notebook-04.png)
 
-주피터 노트북이 열리면 `notebook` 폴더를 클릭합니다.
+주피터 노트북이 열리면 `deepracer-notebook` 폴더를 클릭합니다.
 
 ![](./images/notebook-05.png)

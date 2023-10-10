@@ -50,11 +50,11 @@ Notebook instance settings 섹션에서 Notebook instance name 에 deepracer-wor
 Permissions and encryption 섹션에서 IAM role 을 Create a new role 로 선택합니다.
 Create role 버튼을 클릭합니다.
 Git repositories- optional 섹션을 열고 Clone a public Git repository... 를 선택합니다.
-Git repository URL 에 https://github.com/awskrug/deepracer-group 을 입력합니다.
+Git repository URL 에 https://github.com/awskrug/deepracer-notebook 을 입력합니다.
 Create notebook instance 버튼을 클릭합니다.
 도움말 노트북 인스턴스 생성에는 5분 정도 소요됩니다.
 Open Jupyter 만들어진 노트북 인스턴스에서 Open Jupyter 링크를 클릭합니다.
-주피터 노트북이 열리면 notebook 폴더를 클릭합니다.
+주피터 노트북이 열리면 deepracer-notebook 폴더를 클릭합니다.
 `,description:"",tags:null,title:"주피터 노드북 설정",uri:"/deepracer-workshop/notebook/index.html"},{breadcrumb:"Home",content:`RaceLine Calculation 주피터 노트북에서 RaceLine_Calculation.ipynb 노트북을 클릭합니다.
 처음에는 Kernel이 설정되어있지 않은데 coda_python3 를 선택하고 Set Kernel 버튼을 클릭합니다.
 또한 처음에는 Not Trusted 상태인데 버튼을 클릭하고, Trust 를 클릭합니다.
@@ -64,7 +64,7 @@ Run all cells 아래 셀에서 TRACK_NAME 이 reInvent2019_track_ccw 인지 확�
 XI_ITERATIONS = 5 이고, LINE_ITERATIONS = 500 입니다. 이 값은 적절하게 조정할 수 있습니다.
 ⏩ 버튼을 클릭하면 전체 셀이 실행됩니다.
 지정한 iteration 만큼의 시뮬레이션을 실행하고, 최적의 코스를 추출합니다.
-추출한 데이터는 deepracer-group/notebook/outputs/racelines/ 폴더에 저장됩니다.
+추출한 데이터는 deepracer-notebook/outputs/racelines/ 폴더에 저장됩니다.
 `,description:"",tags:null,title:"최적 코스 추출",uri:"/deepracer-workshop/calculation/index.html"},{breadcrumb:"Home",content:`RaceLine ActionSpace 주피터 노트북에서 RaceLine_ActionSpace.ipynb 노트북을 클릭합니다.
 Kernel은 coda_python3 를 선택하고, 노트북을 Trust 합니다.
 Run all cells 아래 셀에서 TRACK_NAME 이 reInvent2019_track_ccw-5-500 인지 확인 합니다.
@@ -74,10 +74,10 @@ MIN_SPEED, MAX_SPEED 는 최소, 최대 속도를 결정합니다.
 MIN_SPEED, R_STEERING 은 좌우 최대 핸들 각도입니다.
 ACTION_SPACE_SIZE 는 스피드와 핸들 각도를 몇 개로 나눌 것인지를 결정합니다.
 ⏩ 버튼을 클릭하면 전체 셀이 실행됩니다.
-추출한 데이터는 deepracer-group/notebook/outputs/ 폴더에 저장됩니다.
+추출한 데이터는 deepracer-notebook/outputs/ 폴더에 저장됩니다.
 `,description:"",tags:null,title:"최적 속도 추출",uri:"/deepracer-workshop/actionspace/index.html"},{breadcrumb:"Home",content:` 도움말 이 보상함수는 링크 를 참고 하였습니다.
-Capstone_AWS_DeepRacer 주피터 노트북에서 deepracer-group/functions/ct.py 파일을 클릭합니다.
-파이선 파일 266번째 줄에 있는 racing_track 변수를 deepracer-group/notebook/outputs/reInvent2019_track_ccw-5-500.py 의 내용으로 수정합니다.
+Capstone_AWS_DeepRacer 주피터 노트북에서 deepracer-notebook/functions/ct.py 파일을 클릭합니다.
+파이선 파일 266번째 줄에 있는 racing_track 변수를 deepracer-notebook/outputs/reInvent2019_track_ccw-5-500.py 의 내용으로 수정합니다.
 STANDARD_TIME 은 일반으로 완주 했을때의 시간입니다.
 FASTEST_TIME 은 최고 기록을 세운 시간입니다.
 이제 이 함수로 훈련을 시작해 보겠습니다.
@@ -109,7 +109,7 @@ Trainning 200분 훈련을 완료하였습니다. 아마도 다음과 같은 그
 Analysis ActionSpace 주피터 노트북에서 Analysis_ActionSpace.ipynb 노트북을 클릭합니다.
 Kernel은 coda_python3 를 선택하고, 노트북을 Trust 합니다.
 Run all cells 아래 셀에서 track_name = reInvent2019_track_ccw 를 확인 합니다.
-fname = logs/training-20230824060557-uBkNAvaRR5iFOWCl5nk8cA-robomaker.log 를 확인 합니다.
+fname = logs/training-robomaker.log 를 확인 합니다.
 ⏩ 버튼을 클릭하면 전체 셀이 실행됩니다.
 `,description:"",tags:null,title:"주행 로그 분석",uri:"/deepracer-workshop/analysis/index.html"},{breadcrumb:"Home",content:` 도움말 이 장에서는 Best lap time 이 07.611 인 모델을 기준으로 설명합니다.
 ch-ccw-06 주피터 노트북에서 RaceLine_ActionSpace.ipynb 노트북을 클릭합니다.

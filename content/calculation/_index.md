@@ -38,6 +38,6 @@ weight: 6
 
 ![](./images/calc-06.png)
 
-추출한 데이터는 `deepracer-group/notebook/outputs/racelines/` 폴더에 저장됩니다.
+추출한 데이터는 `deepracer-notebook/outputs/racelines/` 폴더에 저장됩니다.
 
 ![](./images/calc-07.png)
