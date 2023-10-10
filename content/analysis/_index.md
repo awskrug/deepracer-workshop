@@ -26,9 +26,9 @@ Kernel은 `coda_python3` 를 선택하고, 노트북을 `Trust` 합니다.
 
 `fname` = `logs/training-robomaker.log` 를 확인 합니다.
 
-`⏩` 버튼을 클릭하면 전체 셀이 실행됩니다.
-
 ![](./images/analysis-03.png)
+
+`⏩` 버튼을 클릭하면 전체 셀이 실행됩니다.
 
 ![](./images/analysis-04.png)
 
@@ -39,3 +39,5 @@ Kernel은 `coda_python3` 를 선택하고, 노트북을 `Trust` 합니다.
 ![](./images/analysis-07.png)
 
 ![](./images/analysis-08.png)
+
+![](./images/analysis-09.png)
