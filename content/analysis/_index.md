@@ -16,6 +16,10 @@ weight: 9
 
 Kernel은 `coda_python3` 를 선택하고, 노트북을 `Trust` 합니다.
 
+처음에는 사용하는 라이브러리가 설치되어있지 않습니다. 첫 셀의 주석을 풀고 `▶️ Run` 을 실행합니다.
+
+![](./images/analysis-02.png)
+
 ## Run all cells
 
 아래 셀에서 `track_name` = `reInvent2019_track_ccw` 를 확인 합니다.
@@ -23,8 +27,6 @@ Kernel은 `coda_python3` 를 선택하고, 노트북을 `Trust` 합니다.
 `fname` = `logs/training-robomaker.log` 를 확인 합니다.
 
 `⏩` 버튼을 클릭하면 전체 셀이 실행됩니다.
-
-![](./images/analysis-02.png)
 
 ![](./images/analysis-03.png)
 
@@ -35,3 +37,5 @@ Kernel은 `coda_python3` 를 선택하고, 노트북을 `Trust` 합니다.
 ![](./images/analysis-06.png)
 
 ![](./images/analysis-07.png)
+
+![](./images/analysis-08.png)
