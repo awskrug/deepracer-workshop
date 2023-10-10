@@ -1,6 +1,6 @@
 var relearn_search_index=[{breadcrumb:"Home",content:`Discover what this Hugo theme is all about and the core-concepts behind it.
-`,description:"",tags:null,title:"딥레이서 기초",uri:"/deepracer-workshop/basics/index.html"},{breadcrumb:"Home",content:`Lorem Ipsum.
-`,description:"",tags:null,title:"실습 환경 구성",uri:"/deepracer-workshop/workspace/index.html"},{breadcrumb:"Home",content:` 도움말 이 장에서는 30분 훈련 완성을 위한 방법을 설명합니다. 자료는 이 링크를 참고하였습니다.
+`,description:"",tags:null,title:"딥레이서 기초",uri:"/deepracer-workshop/basics/index.html"},{breadcrumb:"Home",content:` 도움말 실습 환경을 구성 하기위해 Workshop Studio 를 사용합니다.
+`,description:"",tags:null,title:"실습 환경 구성",uri:"/deepracer-workshop/workshop_studio/index.html"},{breadcrumb:"Home",content:` 도움말 이 장에서는 30분 훈련 완성을 위한 방법을 설명합니다. 자료는 이 링크를 참고하였습니다.
 AWS Deepracer — How to train a model in 15 minutes 작성자는 차량의 조향 방향을 사용하여 스코어링 함수를 설계했습니다.
 차량 주위에 트랙 너비 만큼의 원을 그린다. 이 원과 중앙선의 교점을 찾는다. 그 점을 향해 조향하면 최대 점수를 얻고, 조향이 다를수록 점수가 감소한다. Discount factor 는 0.5 를 사용한다. 이렇게 훈련한 모델은 15분 훈련으로 주행률 100% 를 달성할 수 있었습니다. 주 위의 문서에서는 15분 훈련을 했지만, 우리는 Discount factor 를 0.9 로 변경 하였기에 30분 훈련으로 진행 합니다.
 Create model AWS Console 의 Deepracer 서비스로 이동합니다. Your models 메뉴에서 Create model 을 클릭합니다.
