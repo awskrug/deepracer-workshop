@@ -8,6 +8,8 @@ weight: 10
 이 장에서는 Best lap time 이 `07.611` 인 모델을 기준으로 설명합니다.
 {{% /notice %}}
 
+![](./images/tuning-01.png)
+
 ## ch-ccw-06
 
 주피터 노트북에서 `RaceLine_ActionSpace.ipynb` 노트북을 클릭합니다.

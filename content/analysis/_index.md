@@ -20,7 +20,7 @@ Kernel은 `coda_python3` 를 선택하고, 노트북을 `Trust` 합니다.
 
 아래 셀에서 `track_name` = `reInvent2019_track_ccw` 를 확인 합니다.
 
-`fname` = `logs/training-20230824060557-uBkNAvaRR5iFOWCl5nk8cA-robomaker.log` 를 확인 합니다.
+`fname` = `logs/training-robomaker.log` 를 확인 합니다.
 
 `⏩` 버튼을 클릭하면 전체 셀이 실행됩니다.
 

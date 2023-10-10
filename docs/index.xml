@@ -29,8 +29,8 @@ MIN_SPEED, MAX_SPEED 는 최소, 최대 속도를 결정합니다.
 MIN_SPEED, R_STEERING 은 좌우 최대 핸들 각도입니다.
 ACTION_SPACE_SIZE 는 스피드와 핸들 각도를 몇 개로 나눌 것인지를 결정합니다.
 ⏩ 버튼을 클릭하면 전체 셀이 실행됩니다.</description></item><item><title>최적화 보상 함수</title><link>/deepracer-workshop/reward_function/index.html</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/deepracer-workshop/reward_function/index.html</guid><description>도움말 이 보상함수는 링크 를 참고 하였습니다.
-Capstone_AWS_DeepRacer 주피터 노트북에서 deepracer-group/functions/ct.py 파일을 클릭합니다.
-파이선 파일 266번째 줄에 있는 racing_track 변수를 deepracer-group/notebook/outputs/reInvent2019_track_ccw-5-500.py 의 내용으로 수정합니다.
+Capstone_AWS_DeepRacer 주피터 노트북에서 deepracer-notebook/functions/ct.py 파일을 클릭합니다.
+파이선 파일 266번째 줄에 있는 racing_track 변수를 deepracer-notebook/outputs/reInvent2019_track_ccw-5-500.py 의 내용으로 수정합니다.
 STANDARD_TIME 은 일반으로 완주 했을때의 시간입니다.
 FASTEST_TIME 은 최고 기록을 세운 시간입니다.
 이제 이 함수로 훈련을 시작해 보겠습니다.
@@ -40,7 +40,7 @@ Track 은 Smile Speedway 를 선택합니다.</description></item><item><title>�
 Analysis ActionSpace 주피터 노트북에서 Analysis_ActionSpace.ipynb 노트북을 클릭합니다.
 Kernel은 coda_python3 를 선택하고, 노트북을 Trust 합니다.
 Run all cells 아래 셀에서 track_name = reInvent2019_track_ccw 를 확인 합니다.
-fname = logs/training-20230824060557-uBkNAvaRR5iFOWCl5nk8cA-robomaker.log 를 확인 합니다.
+fname = logs/training-robomaker.log 를 확인 합니다.
 ⏩ 버튼을 클릭하면 전체 셀이 실행됩니다.</description></item><item><title>보상 함수 튜닝</title><link>/deepracer-workshop/tuning/index.html</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/deepracer-workshop/tuning/index.html</guid><description>도움말 이 장에서는 Best lap time 이 07.611 인 모델을 기준으로 설명합니다.
 ch-ccw-06 주피터 노트북에서 RaceLine_ActionSpace.ipynb 노트북을 클릭합니다.
 MIN_SPEED = 1.1, MAX_SPEED = 3.6 을 입력합니다.

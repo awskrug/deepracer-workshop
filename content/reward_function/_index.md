@@ -10,11 +10,11 @@ weight: 8
 
 ## Capstone_AWS_DeepRacer
 
-주피터 노트북에서 `deepracer-group/functions/ct.py` 파일을 클릭합니다.
+주피터 노트북에서 `deepracer-notebook/functions/ct.py` 파일을 클릭합니다.
 
 ![](./images/reward_function-00.png)
 
-파이선 파일 266번째 줄에 있는 `racing_track` 변수를 `deepracer-group/notebook/outputs/reInvent2019_track_ccw-5-500.py` 의 내용으로 수정합니다.
+파이선 파일 266번째 줄에 있는 `racing_track` 변수를 `deepracer-notebook/outputs/reInvent2019_track_ccw-5-500.py` 의 내용으로 수정합니다.
 
 `STANDARD_TIME` 은 일반으로 완주 했을때의 시간입니다.
 
