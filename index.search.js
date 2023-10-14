@@ -50,9 +50,9 @@ Choose model 에서 ch-ccw-00 을 선택합니다.
 Enter race 버튼을 클릭합니다.
 평가가 끝나면 결과가 표시됩니다.
 `,description:"",tags:null,title:"온라인 리그 제출",uri:"/deepracer-workshop/submit/index.html"},{breadcrumb:"Home",content:`SageMaker AWS Console에서 SageMaker 서비스로 이동합니다.
-리전은 ap-northeast-2를 선택합니다.
+리전은 us-east-1를 선택합니다.
 Notebook instance 좌측 메뉴에서 노트북 인스턴스를 선택합니다.
-도움말 바로가기: Amazon SageMaker > Notebook instances (ap-northeast-2)
+도움말 바로가기: Amazon SageMaker > Notebook instances (us-east-1)
 우측 상단의 Create notebook instance 버튼을 클릭합니다.
 Notebook instance settings 섹션에서 Notebook instance name 에 deepracer-workshop 을 입력합니다.
 Permissions and encryption 섹션에서 IAM role 을 Create a new role 로 선택합니다.
