@@ -10,7 +10,7 @@ weight: 2
 
 ## Create Account
 
-실습 환경 구성을 위해 제공해 드린 링크에 접속하시면 다음과 같은 화면이 나타납니다.
+실습 환경 구성을 위해 제공해 드린 링크에 접속하시면 `AWS Workshop Studio - Sign in` 화면이 나타납니다.
 
 ![](./images/studio-01.png)
 
