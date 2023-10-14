@@ -15,7 +15,7 @@ AWS Console에서 SageMaker 서비스로 이동합니다.
 좌측 메뉴에서 `노트북 인스턴스`를 선택합니다.
 
 {{% notice tip %}}
-바로가기: [링크](https://ap-northeast-2.console.aws.amazon.com/sagemaker/home?region=ap-northeast-2#/notebook-instances)
+바로가기: [Amazon SageMaker > Notebook instances (ap-northeast-2)](https://ap-northeast-2.console.aws.amazon.com/sagemaker/home?region=ap-northeast-2#/notebook-instances)
 {{% /notice %}}
 
 우측 상단의 `Create notebook instance` 버튼을 클릭합니다.

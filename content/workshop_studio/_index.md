@@ -5,12 +5,12 @@ weight: 2
 ---
 
 {{% notice tip %}}
-실습 환경을 구성 하기위해 `Workshop Studio` 를 사용합니다.
+실습 환경을 구성 하기위해 `AWS Workshop Studio` 를 사용합니다.
 {{% /notice %}}
 
 ## Create Account
 
-실습 환경 구성을 위해 제공해 드림 링크에 접속하시면 다음과 같은 화면이 나타납니다.
+실습 환경 구성을 위해 제공해 드린 링크에 접속하시면 다음과 같은 화면이 나타납니다.
 
 ![](./images/studio-01.png)
 
