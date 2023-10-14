@@ -1,6 +1,6 @@
 var relearn_search_index=[{breadcrumb:"Home",content:`Discover what this Hugo theme is all about and the core-concepts behind it.
-`,description:"",tags:null,title:"딥레이서 기초",uri:"/deepracer-workshop/basics/index.html"},{breadcrumb:"Home",content:` 도움말 실습 환경을 구성 하기위해 Workshop Studio 를 사용합니다.
-Create Account 실습 환경 구성을 위해 제공해 드림 링크에 접속하시면 다음과 같은 화면이 나타납니다.
+`,description:"",tags:null,title:"딥레이서 기초",uri:"/deepracer-workshop/basics/index.html"},{breadcrumb:"Home",content:` 도움말 실습 환경을 구성 하기위해 AWS Workshop Studio 를 사용합니다.
+Create Account 실습 환경 구성을 위해 제공해 드린 링크에 접속하시면 AWS Workshop Studio - Sign in 화면이 나타납니다.
 Email one-time Password (OTP) 를 클릭하시면 일회용 이메일 암호 화면이 나타납니다.
 본인의 이메일을 입력하시고 암호 전송 을 클릭하시면 일회용 이메일 암호 입력 화면이 나타납니다.
 메일함을 확인하여 9자리 숫자로 된 암호 를 복사하여 입력란에 붙여넣기 하시고 로그인 을 클릭하시면 이용 약관에 동의 화면이 나타납니다.
@@ -44,7 +44,7 @@ Start evaluation 을 클릭합니다.
 평가가 진행되는 동안 Simulation video stream 와 Evaluation results 을 확인 할 수 있습니다.
 평가가 완료 되었습니다. Simulation video stream 에서 주행 영상을 확인 할 수 있습니다.
 `,description:"",tags:null,title:"30분 훈련 완성",uri:"/deepracer-workshop/30-min/index.html"},{breadcrumb:"Home",content:`Online league AWS Console 의 Deepracer 서비스로 이동합니다. Community races 메뉴에서 Create race 를 클릭하여 새 레이스를 만들수 있지만. 우리는 이미 만들어진 레이스로 이동 합니다.
-다음 링크 를 클릭하여 레이스로 이동합니다.
+도움말 바로가기: AWS DeepRacer > Community races > ch-demo-2023
 Submit model Enter race 버튼을 클릭합니다.
 Choose model 에서 ch-ccw-00 을 선택합니다.
 Enter race 버튼을 클릭합니다.
@@ -52,7 +52,7 @@ Enter race 버튼을 클릭합니다.
 `,description:"",tags:null,title:"온라인 리그 제출",uri:"/deepracer-workshop/submit/index.html"},{breadcrumb:"Home",content:`SageMaker AWS Console에서 SageMaker 서비스로 이동합니다.
 리전은 ap-northeast-2를 선택합니다.
 Notebook instance 좌측 메뉴에서 노트북 인스턴스를 선택합니다.
-도움말 바로가기: 링크
+도움말 바로가기: Amazon SageMaker > Notebook instances (ap-northeast-2)
 우측 상단의 Create notebook instance 버튼을 클릭합니다.
 Notebook instance settings 섹션에서 Notebook instance name 에 deepracer-workshop 을 입력합니다.
 Permissions and encryption 섹션에서 IAM role 을 Create a new role 로 선택합니다.
