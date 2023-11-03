@@ -100,7 +100,6 @@ EOF
 ```bash
 cat <<EOF > config/crontab.sh
 */15 * * * * /home/ec2-user/deepracer-submit/submit.py -t comm > /tmp/submit-pro.log 2>&1
-59 * * * * bash /home/ec2-user/run.sh restore
 EOF
 ```
 
