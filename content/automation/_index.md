@@ -84,10 +84,6 @@ EOF
 ## submit
 
 ```bash
-./submit.py -t comm -d True
-```
-
-```bash
 ./submit.py -t comm
 ```
 
