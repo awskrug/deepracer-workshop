@@ -26,6 +26,8 @@ AWS Console 의 `Deepracer` 서비스로 이동합니다. `Your models` 메뉴�
 
 ![](./images/tuning-01.png)
 
+![](./images/tuning-01-2.png)
+
 ## ch-ccw-06-ccw
 
 주피터 노트북에서 `RaceLine_ActionSpace.ipynb` 노트북을 클릭합니다.
@@ -45,6 +47,8 @@ AWS Console 의 `Deepracer` 서비스로 이동합니다. `Your models` 메뉴�
 보상함수: <https://github.com/awskrug/deepracer-notebook/blob/main/functions/ch-ccw-06-ccw.py>
 
 ![](./images/tuning-02.png)
+
+![](./images/tuning-02-2.png)
 
 ## ch-ccw-06-ccw-ccw2
 
@@ -66,6 +70,8 @@ AWS Console 의 `Deepracer` 서비스로 이동합니다. `Your models` 메뉴�
 
 ![](./images/tuning-03.png)
 
+![](./images/tuning-03-2.png)
+
 ## ch-ccw-06-ccw-ccw2-ccw
 
 보상함수는 이전 것을 그대로 사용 합니다.
@@ -79,3 +85,5 @@ AWS Console 의 `Deepracer` 서비스로 이동합니다. `Your models` 메뉴�
 모델을 훈련 합니다.
 
 ![](./images/tuning-04.png)
+
+![](./images/tuning-04-2.png)
