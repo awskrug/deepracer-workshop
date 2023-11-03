@@ -20,6 +20,8 @@ weight: 11
 
 `Other` > `Terminal` 링크를 클릭합니다.
 
+![](./images/automation-02.png)
+
 ## Prepare
 
 ```bash
