@@ -99,7 +99,7 @@ EOF
 
 ```bash
 cat <<EOF > config/crontab.sh
-*/15 * * * * /home/ec2-user/deepracer-submit/submit.py -t comm > /tmp/submit-pro.log 2>&1
+*/15 * * * * /home/ec2-user/deepracer-submit/submit.py -t comm > /tmp/submit.log 2>&1
 EOF
 ```
 
