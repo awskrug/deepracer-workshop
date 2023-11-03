@@ -160,6 +160,7 @@ MIN_SPEED = 1.1, MAX_SPEED = 3.6 을 입력합니다.
 결과를 racing_track 변수에 저장합니다.
 AWS Console 의 Deepracer 서비스로 이동합니다. Your models 메뉴에서 Create model 을 클릭합니다.
 이전과 같은 방법으로 모델을 훈련 합니다.
+보상함수: https://github.com/awskrug/deepracer-notebook/blob/main/functions/ch-ccw-06.py
 ch-ccw-06-ccw 주피터 노트북에서 RaceLine_ActionSpace.ipynb 노트북을 클릭합니다.
 MIN_SPEED = 1.3, MAX_SPEED = 3.9 를 입력합니다.
 결과를 racing_track 변수에 저장합니다.
@@ -167,6 +168,7 @@ Your models 에서 ch-ccw-06 모델을 선택합니다.
 Clone 을 클릭합니다.
 Hyperparameter 의 Learning rate	= 0.0002 으로 변경합니다.
 모델을 훈련 합니다.
+보상함수: https://github.com/awskrug/deepracer-notebook/blob/main/functions/ch-ccw-06-ccw.py
 ch-ccw-06-ccw-ccw2 주피터 노트북에서 RaceLine_ActionSpace.ipynb 노트북을 클릭합니다.
 MIN_SPEED = 1.6, MAX_SPEED = 4.0 을 입력합니다.
 결과를 racing_track 변수에 저장합니다.
@@ -174,5 +176,11 @@ Your models 에서 ch-ccw-06-ccw 모델을 선택합니다.
 Clone 을 클릭합니다.
 Hyperparameter 의 Learning rate	= 0.0001 으로 변경합니다.
 모델을 훈련 합니다.
-ch-ccw-06-ccw-ccw2-ccw `,description:"",tags:null,title:"보상 함수 튜닝",uri:"/deepracer-workshop/tuning/index.html"},{breadcrumb:"Home",content:"",description:"",tags:null,title:"카테고리",uri:"/deepracer-workshop/categories/index.html"},{breadcrumb:"Home",content:"Contributors Tools Hugo Hugo Relearn Theme ",description:"",tags:null,title:"Credits",uri:"/deepracer-workshop/credits/index.html"},{breadcrumb:"",content:`DeepRacer Workshop 도움말 본 실습에서는 딥레이서 기초부터 최적화 보상 함수, 최적 코스 추출, 최적 속도 추출, 주행 로그 분석 등을 실습합니다.
+보상함수: https://github.com/awskrug/deepracer-notebook/blob/main/functions/ch-ccw-06-ccw-ccw2.py
+ch-ccw-06-ccw-ccw2-ccw 보상함수는 이전 것을 그대로 사용 합니다.
+Your models 에서 ch-ccw-06-ccw-ccw2 모델을 선택합니다.
+Clone 을 클릭합니다.
+Hyperparameter 의 Learning rate	= 0.00005 으로 변경합니다.
+모델을 훈련 합니다.
+`,description:"",tags:null,title:"보상 함수 튜닝",uri:"/deepracer-workshop/tuning/index.html"},{breadcrumb:"Home",content:"",description:"",tags:null,title:"카테고리",uri:"/deepracer-workshop/categories/index.html"},{breadcrumb:"Home",content:"Contributors Tools Hugo Hugo Relearn Theme ",description:"",tags:null,title:"Credits",uri:"/deepracer-workshop/credits/index.html"},{breadcrumb:"",content:`DeepRacer Workshop 도움말 본 실습에서는 딥레이서 기초부터 최적화 보상 함수, 최적 코스 추출, 최적 속도 추출, 주행 로그 분석 등을 실습합니다.
 Topics 딥레이서 기초 실습 환경 구성 30분 훈련 완성 온라인 리그 제출 주피터 노드북 설정 최적 코스 추출 최적 속도 추출 최적화 보상 함수 주행 로그 분석 보상 함수 튜닝 Credits `,description:"",tags:null,title:"Home",uri:"/deepracer-workshop/index.html"},{breadcrumb:"Home",content:"",description:"",tags:null,title:"태그",uri:"/deepracer-workshop/tags/index.html"}]

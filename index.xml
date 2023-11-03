@@ -55,7 +55,7 @@ MIN_SPEED = 1.1, MAX_SPEED = 3.6 을 입력합니다.
 결과를 racing_track 변수에 저장합니다.
 AWS Console 의 Deepracer 서비스로 이동합니다. Your models 메뉴에서 Create model 을 클릭합니다.
 이전과 같은 방법으로 모델을 훈련 합니다.
+보상함수: https://github.com/awskrug/deepracer-notebook/blob/main/functions/ch-ccw-06.py
 ch-ccw-06-ccw 주피터 노트북에서 RaceLine_ActionSpace.ipynb 노트북을 클릭합니다.
 MIN_SPEED = 1.3, MAX_SPEED = 3.9 를 입력합니다.
-결과를 racing_track 변수에 저장합니다.
-Your models 에서 ch-ccw-06 모델을 선택합니다.</description></item><item><title>Credits</title><link>/deepracer-workshop/credits/index.html</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/deepracer-workshop/credits/index.html</guid><description>Contributors Tools Hugo Hugo Relearn Theme</description></item></channel></rss>
+결과를 racing_track 변수에 저장합니다.</description></item><item><title>Credits</title><link>/deepracer-workshop/credits/index.html</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/deepracer-workshop/credits/index.html</guid><description>Contributors Tools Hugo Hugo Relearn Theme</description></item></channel></rss>
