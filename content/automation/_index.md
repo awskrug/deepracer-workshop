@@ -109,4 +109,4 @@ crontab config/crontab.sh
 
 ## slack
 
-![](./images/submit-tt.png)
+![](./images/submit-comm.png)
