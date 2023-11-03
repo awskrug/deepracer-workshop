@@ -41,7 +41,7 @@ git clone https://github.com/nalbam/deepracer-submit
 
 cd deepracer-submit
 
-sudo pip3 install --upgrade -r requirements.txt
+pip3 install --upgrade -r requirements.txt
 ```
 
 ```bash
