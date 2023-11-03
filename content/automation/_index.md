@@ -70,13 +70,6 @@ cat <<EOF > config/deepracer.json
   },
   "races": [
     {
-      "name": "pro",
-      "arn": "league/arn%3Aaws%3Adeepracer%3A%3A%3Aleaderboard%2F689a6905-08c6-4589-b609-c54eca7ffd9e",
-      "models": [
-        "DR-MODEL-01", "DR-MODEL-02"
-      ]
-    },
-    {
       "name": "comm",
       "arn": "competition/arn%3Aaws%3Adeepracer%3A%3A968005369378%3Aleaderboard%2Fc2952386-1b8d-4610-ab54-5512e6656d68",
       "models": [
@@ -90,15 +83,23 @@ EOF
 
 ## submit
 
+### debug
+
 ```bash
 ./submit.py -t comm -d True
+```
+
+## submit
+
+```bash
+./submit.py -t comm
 ```
 
 ## crontab
 
 ```bash
 cat <<EOF > config/crontab.sh
-*/15 * * * * /home/ec2-user/deepracer-submit/submit.py -t pro > /tmp/submit-pro.log 2>&1
+*/15 * * * * /home/ec2-user/deepracer-submit/submit.py -t comm > /tmp/submit-pro.log 2>&1
 59 * * * * bash /home/ec2-user/run.sh restore
 EOF
 ```
